@@ -1,0 +1,8 @@
+# Ignore hidden subdirectories
+.idea/*
+
+# Ignore Python cache
+__pycache__/*
+ 
+# Ignore specific files
+config/database-config.json

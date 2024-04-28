@@ -1,0 +1,55 @@
+[
+	{
+		"connection-name": "ORACLE_EXAMPLE",
+		"active": true,
+		"rdbms": "oracle",
+		"schema-name": "testDB",
+		"username": "testDB",
+		"password": "password",
+		"server": "localhost",
+		"port": "1521",
+		"service-name": "TESTDB"
+	},
+	{
+		"connection-name": "ORACLE_XE_EXAMPLE",
+		"active": true,
+		"rdbms": "oracle",
+		"schema-name": "testDB",
+		"username": "testDB",
+		"password": "password",
+		"server": "localhost",
+		"port": "1521",
+		"service-name": "XEPDB1",
+		"dsn":"testDB@//localhost:1521/XEPDB1"
+	},
+	{
+		"connection-name": "SQLSERVER_EXAMPLE",
+		"active": true,
+		"rdbms": "sqlserver",
+		"schema-name": "dbo",
+		"database-name": "testDB",
+		"username": "sa",
+		"password": "password",
+		"server":"localhost"
+	},
+	{
+		"connection-name": "POSTGRESQL_EXAMPLE",
+		"active": true,
+		"rdbms": "postgresql",
+		"schema-name": "public",
+		"database-name": "testDB",
+		"username": "postgres",
+		"password": "password",
+		"server":"localhost"
+	},
+	{
+		"connection-name": "MYSQL_EXAMPLE",
+		"active": true,
+		"rdbms": "mysql",
+		"database-name": "World",
+		"username": "admin",
+		"password": "password",
+		"server":"localhost",
+		"port":"3306"
+	}
+]
